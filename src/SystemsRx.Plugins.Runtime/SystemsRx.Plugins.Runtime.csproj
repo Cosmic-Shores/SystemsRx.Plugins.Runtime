@@ -11,7 +11,7 @@
     <PackageTags>ecs ioc bootstrapping lifetime game-development xna monogame unity</PackageTags>
     <Copyright>Copyright (c) 2021 Jonas Fischer (fijo.com@gmail.com)</Copyright>
     <RepositoryUrl>https://github.com/Cosmic-Shores/SystemsRx.Plugins.Runtime</RepositoryUrl>
-    <Version>1.0.0</Version>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>

@@ -13,7 +13,7 @@ namespace SystemsRx.Plugins.Runtime {
     /// </summary>
     public sealed class SystemRuntimePlugin : ISystemsRxPlugin {
         public string Name => "System Runtime Plugin";
-        public Version Version { get; } = new Version("1.0.0");
+        public Version Version => this.GetType().Assembly.GetName().Version;
 
         public void SetupDependencies(IDependencyContainer container) {
             container.Unbind<ISystemExecutor>();
