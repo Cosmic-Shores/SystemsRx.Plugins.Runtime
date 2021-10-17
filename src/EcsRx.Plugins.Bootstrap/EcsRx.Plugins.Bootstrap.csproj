@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Description>A SystemRx Plugin to delay the start of a system until it is ready.</Description>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <Authors>Jonas Fischer (fijo.com@gmail.com)</Authors>
+    <Company>Churlish Games</Company>
+    <PackageProjectUrl>https://github.com/Cosmic-Shores/SystemsRx.Plugins.Runtime</PackageProjectUrl>
+    <PackageTags>ecs ioc rx reactive patterns bootstrapping lifetime game-development xna monogame unity</PackageTags>
+    <Copyright>Copyright (c) 2021 Jonas Fischer (fijo.com@gmail.com)</Copyright>
+    <RepositoryUrl>https://github.com/Cosmic-Shores/SystemsRx.Plugins.Runtime</RepositoryUrl>
+    <Version>1.0.1</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SystemsRx.Infrastructure" Version="5.1.21" />
+    <ProjectReference Include="..\SystemsRx.Plugins.Runtime\SystemsRx.Plugins.Runtime.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>

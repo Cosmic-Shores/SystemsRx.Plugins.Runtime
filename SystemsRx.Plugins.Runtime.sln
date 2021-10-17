@@ -10,6 +10,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.editorconfig = .editorconfig
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EcsRx.Plugins.Bootstrap", "src\EcsRx.Plugins.Bootstrap\EcsRx.Plugins.Bootstrap.csproj", "{B45C8D62-D482-488A-8A8F-5868DA9C0047}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +22,10 @@ Global
 		{306BF830-7151-4D49-9B2A-78E189738061}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{306BF830-7151-4D49-9B2A-78E189738061}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{306BF830-7151-4D49-9B2A-78E189738061}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B45C8D62-D482-488A-8A8F-5868DA9C0047}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B45C8D62-D482-488A-8A8F-5868DA9C0047}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B45C8D62-D482-488A-8A8F-5868DA9C0047}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B45C8D62-D482-488A-8A8F-5868DA9C0047}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
