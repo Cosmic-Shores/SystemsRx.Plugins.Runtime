@@ -24,13 +24,18 @@ To use this plugin you have to load both these plugins in your application.
 
 The following snippet ilustrates the basic usage on a system using UniRx in the Ready-method.
 ```cs
-    sealed class ExampleSystem : IManualSystem, IManualStartupSystem<long> {
-        public IObservable<long> Ready() => Observable.EveryUpdate().Take(1);
+using EcsRx.Plugins.Bootstrap;
+using UniRx;
+using System;
+using SystemsRx.Systems.Conventional;
 
-        public void StartSystem() {
-            // delayed start once ready has emited
-        }
+sealed class ExampleSystem : IManualSystem, IManualStartupSystem<long> {
+    public IObservable<long> Ready() => Observable.EveryUpdate().Take(1);
 
-        public void StopSystem() {}
+    public void StartSystem() {
+        // delayed start once ready has emited
     }
+
+    public void StopSystem() {}
+}
 ```
