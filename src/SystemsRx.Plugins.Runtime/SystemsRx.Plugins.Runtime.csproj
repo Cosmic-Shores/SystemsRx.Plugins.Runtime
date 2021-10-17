@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Description>A SystemsRx Plugin that provides a base notion for implementing a plugin to control when a system is started and stopped with ease.</Description>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <Authors>Jonas Fischer (fijo.com@gmail.com)</Authors>
+    <Company>Churlish Games</Company>
+    <PackageProjectUrl>https://github.com/Cosmic-Shores/SystemsRx.Plugins.Runtime</PackageProjectUrl>
+    <PackageTags>ecs ioc bootstrapping lifetime game-development xna monogame unity</PackageTags>
+    <Copyright>Copyright (c) 2021 Jonas Fischer (fijo.com@gmail.com)</Copyright>
+    <RepositoryUrl>https://github.com/Cosmic-Shores/SystemsRx.Plugins.Runtime</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SystemsRx" Version="5.1.21" />
+    <PackageReference Include="SystemsRx.Infrastructure" Version="5.1.21" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
