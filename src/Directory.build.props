@@ -1,0 +1,23 @@
+<Project>
+  <PropertyGroup>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <DefaultLanguage>en-US</DefaultLanguage>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <EmbedUntrackedSources>true</EmbedUntrackedSources>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <Authors>Jonas Fischer (fijo.com@gmail.com)</Authors>
+    <Company>Churlish Games</Company>
+    <PackageProjectUrl>https://github.com/Cosmic-Shores/SystemsRx.Plugins.Runtime</PackageProjectUrl>
+    <Copyright>Copyright (c) 2021 Jonas Fischer (fijo.com@gmail.com)</Copyright>
+    <RepositoryUrl>https://github.com/Cosmic-Shores/SystemsRx.Plugins.Runtime</RepositoryUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
